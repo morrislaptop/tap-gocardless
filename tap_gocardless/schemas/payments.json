@@ -1,0 +1,71 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "charge_date": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "reference": {
+      "type": ["string", "null"]
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "order_dispatch_date": {
+          "type": "string"
+        }
+      }
+    },
+    "amount_refunded": {
+      "type": "integer"
+    },
+    "fx": {
+      "type": "object",
+      "properties": {
+        "fx_currency": {
+          "type": ["string", "null"]
+        },
+        "fx_amount": {
+          "type": ["number", "null"]
+        },
+        "exchange_rate": {
+          "type": ["number", "null"]
+        },
+        "estimated_exchange_rate": {
+          "type": ["number", "null"]
+        }
+      }
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "mandate": {
+          "type": "string"
+        },
+        "creditor": {
+          "type": "string"
+        }
+      }
+    },
+    "retry_if_possible": {
+      "type": "boolean"
+    }
+  }
+}

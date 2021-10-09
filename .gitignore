@@ -94,7 +94,10 @@ ENV/
 
 # Custom stuff
 env.sh
-config.json
+data.json
+config.tap.json
+config.target.json
+catalog.json
 .autoenv.zsh
 
 rsa-key

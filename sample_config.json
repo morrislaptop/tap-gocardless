@@ -1,5 +1,5 @@
 {
-  "username": "my_username",
-  "password": "my_password",
-  "start_date": "2017-01-01T00:00:00Z"
+  "access_token": "sandbox_xxxxxx",
+  "start_date": "2017-01-01T00:00:00Z",
+  "user_agent": "<user-agent>"
 }

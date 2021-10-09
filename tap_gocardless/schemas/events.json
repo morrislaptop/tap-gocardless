@@ -1,0 +1,62 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": [
+        "string"
+      ]
+    },
+    "created_at": {
+      "type": [
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "resource_type": {
+      "type": [
+        "string"
+      ],
+      "enum": [
+        "billing_requests",
+        "creditors",
+        "instalment_schedules",
+        "mandates",
+        "payer_authorisations",
+        "payments",
+        "payouts",
+        "refunds",
+        "subscriptions"
+      ]
+    },
+    "action": {
+      "type": [
+        "string"
+      ]
+    },
+    "customer_notifications": {
+      "type": [
+        "object"
+      ],
+      "properties": {}
+    },
+    "details": {
+      "type": [
+        "object"
+      ],
+      "properties": {}
+    },
+    "metadata": {
+      "type": [
+        "object"
+      ],
+      "properties": {}
+    },
+    "links": {
+      "type": [
+        "object"
+      ],
+      "properties": {}
+    }
+  }
+}
