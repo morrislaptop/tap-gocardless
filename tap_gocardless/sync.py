@@ -196,7 +196,7 @@ def sync_endpoint(client,
         after = data['meta']['cursors']['after']
         LOGGER.info('{} - Synced - after: {}, records: {}'.format(stream_name, after, record_count))
 
-        if after == None:
+        if after is None:
             break
 
     # Return the total_records synced in the stream
