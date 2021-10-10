@@ -95,8 +95,7 @@ ENV/
 # Custom stuff
 env.sh
 data.json
-config.tap.json
-config.target.json
+config.*.json
 catalog.json
 .autoenv.zsh
 
