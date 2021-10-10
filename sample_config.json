@@ -1,5 +1,5 @@
 {
   "access_token": "sandbox_xxxxxx",
-  "start_date": "2017-01-01T00:00:00Z",
+  "start_date": "2017-01-01T00:00:00.000Z",
   "user_agent": "<user-agent>"
 }

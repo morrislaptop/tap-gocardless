@@ -29,7 +29,7 @@
       "type": "object",
       "properties": {
         "order_dispatch_date": {
-          "type": "string"
+          "type": ["string", "null"]
         }
       }
     },
