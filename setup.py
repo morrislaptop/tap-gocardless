@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="tap-gocardless",
-    version="0.1.2",
+    version="0.1.3",
     description="Singer.io tap for extracting data",
     author="morrislaptop",
     url="http://singer.io",
