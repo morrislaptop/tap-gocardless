@@ -1,5 +1,3 @@
-import json
-from datetime import datetime, timedelta
 import backoff
 import requests
 from singer import metrics

@@ -1,5 +1,4 @@
 import singer
-from singer import metadata
 from singer.catalog import Catalog, CatalogEntry, Schema
 from tap_gocardless.schema import get_schemas, STREAMS
 
