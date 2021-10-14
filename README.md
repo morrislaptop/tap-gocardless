@@ -24,7 +24,7 @@ Install the tap and helpers
 
 Obtain an access token via https://developer.gocardless.com/getting-started/api/making-your-first-request/#creating-an-access-token
 
-Create a `config.json` file with the following
+Create a `config.gocardless.json` file with the following
 
 ```
 {
@@ -36,15 +36,15 @@ Create a `config.json` file with the following
 
 Run the tap in Discover mode and select which data you would like to extract:
 
-    tap-gocardless --config config.json --discover | singer-discover -o catalog.json
+    tap-gocardless --config config.gocardless.json --discover | singer-discover -o catalog.json
 
 Run the tap in sync mode
 
-    tap-gocardless --config config.json --catalog catalog.json
+    tap-gocardless --config config.gocardless.json --catalog catalog.json
 
 Run the tap with a target, e.g. postgres
 
-    tap-gocardless --config config.json --catalog catalog.json | target-postgres --config config.postgres.json >> state.json
+    tap-gocardless --config config.gocardless.json --catalog catalog.json | target-postgres --config config.postgres.json >> state.json
     tail -1 state.json > state.json.tmp && mv state.json.tmp state.json
 
 ---
